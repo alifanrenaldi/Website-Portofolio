@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Lora:ital,wght@1,700&family=Montserrat:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #fde6e9;
+}
+.gambar{
+    padding-bottom: 30px;
+}
+img{
+   width: 150px;
+   height: 150px; 
+   border-radius: 100px;
+   border: 5px solid #ffe3f7;
+}
+
+.sidebar{
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    background-color: #ff58c7;
+    width: 0;
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 350px;
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+}
+#btn1{
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fbe0ad;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 27px;
+    border-radius: 20px;
+    text-align: center;
+}
+#btn2{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #fbe0ad;;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+}
+.sidebar ul li{
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 20px;
+    text-align: center;
+}
+.sidebar ul li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}  
+#nama{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#ff98df, #ffc6ee);
+    background-clip : text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 50px;
+}
+#judul{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    /* background: -webkit-linear-gradient(#ff98df, #ffc6ee);
+    background-clip : text;
+    -webkit-text-fill-color: transparent; */
+    color: #e6b03d;
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+#alamat{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bdbdbd;
+}
+#tentangskill{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #bdbdbd;
+}
+.tentang{
+    margin-top: 70px;
+}
+
+.tentang p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 75px;
+    font-weight: 500;
+}
+.social-icons{
+    margin-right: 550px;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 60px;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #ff98df;
+    transition: 0.5s;
+  }
+  .skill-icons{
+    margin-right: 500px;
+  }
+.skill-icons .skill-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 60px;
+  }
+  .skill-icons .skill-icon:last-child {
+    margin-right: 0;
+  }
+  .skill-icons .skill-icon:hover {
+    background-color: #ff98df;
+    transition: 0.5s;
+  }
+  table{
+    display: block;
+    padding: 5px;
+    margin-left: 50px;
+  }
+  table tr td{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
